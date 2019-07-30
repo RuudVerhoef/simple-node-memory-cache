@@ -14,7 +14,7 @@ There are two methods you can use to create a cache. Both the key and value of t
 
 ```typescript
 // Import simple-node-memory-cach
-import {SimpleLRU} from './node_modules/simple-node-memory-cach/index';
+import {SimpleLRU} from './node_modules/simple-node-memory-cache/dist/index';
 
 // create a type that will be stored
 type Person = {firstname: string, lastname: string};
@@ -47,7 +47,7 @@ Instead of having to change the amount of objects a cache can hold after it is c
 
 ```typescript
 // Import simple-node-memory-cach
-import {SimpleLRU} from './node_modules/simple-node-memory-cach/index';
+import {SimpleLRU} from './node_modules/simple-node-memory-cache/dist/index';
 
 // create a type that will be stored
 type Person = {firstname: string, lastname: string};
