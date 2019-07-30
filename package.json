@@ -22,5 +22,16 @@
   "devDependencies": {
     "@types/node": "^12.6.8",
     "typescript": "^3.5.3"
+  },
+  "homepage": "https://github.com/RuudVerhoef/simple-node-memory-cache",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RuudVerhoef/simple-node-memory-cach.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RuudVerhoef/simple-node-memory-cache/issues"
+  },
+  "engines": {
+    "node": ">= 4.9.1"
   }
 }
