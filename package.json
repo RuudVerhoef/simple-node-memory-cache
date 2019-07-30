@@ -1,7 +1,7 @@
 {
   "name": "simple-node-memory-cache",
   "version": "1.0.0",
-  "description": "In-memory cache written in typescript for Node that supports multiple eviction strategies.",
+  "description": "In-memory object cache written in typescript for Node that supports multiple eviction strategies.",
   "main": "dist/index.ts",
   "keywords": [
     "in-memory",
