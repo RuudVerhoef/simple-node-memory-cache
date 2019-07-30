@@ -1,0 +1,26 @@
+{
+  "name": "simple-node-memory-cache",
+  "version": "1.0.0",
+  "description": "In-memory cache written in typescript for Node that supports multiple eviction strategies.",
+  "main": "dist/index.ts",
+  "keywords": [
+    "in-memory",
+    "cache",
+    "LRU",
+    "FIFO",
+    "LIFO",
+    "LFU",
+    "MRU",
+    "RR"
+  ],
+  "author": "Ruud Verhoef",
+  "license": "ISC",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepublish": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^12.6.8",
+    "typescript": "^3.5.3"
+  }
+}

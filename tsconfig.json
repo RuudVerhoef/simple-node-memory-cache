@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "target": "es5",
+    "downlevelIteration": true,
+    "outDir": "dist/"
+  },
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
