@@ -1,6 +1,6 @@
 {
   "name": "simple-node-memory-cache",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "In-memory object cache written in typescript for Node that supports multiple eviction strategies.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -19,9 +19,9 @@
   "scripts": {
     "prepublish": "tsc"
   },
-  "devDependencies": {
-    "@types/node": "^12.6.8",
-    "typescript": "^3.5.3"
+  "dependencies": {
+    "@types/node": "12.6.8",
+    "typescript": "3.5.3"
   },
   "homepage": "https://github.com/RuudVerhoef/simple-node-memory-cache",
   "repository": {
