@@ -43,5 +43,4 @@ export abstract class SimpleCache<T, U> {
     return this.cache.values();
   }
   
-
 }
